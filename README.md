@@ -1,5 +1,5 @@
 # apache-airflow-dev-server
-A Dockerized Apache Airflow Webserver using Airflow 2.2.2 with Python 3.6 and PostgreSQL 10.
+A Dockerized Apache Airflow Webserver using Airflo`2.0.0` with Python`3.8` & PostgreSQL`10`.
 
 .env file contains:
 ```
@@ -15,4 +15,4 @@ AIRFLOW__CORE__EXECUTOR=LocalExecutor
 Run `docker-compose -f docker-compose.yml up --build` and find the local dev server on `localhost:8080`.
 
 
-Note: if compose refuses to build with unknown permission issues; `chmod +x`
+Note: if compose refuses to build with unknown permission issues; `chmod +x` usually for `airflow-entrypoint.sh`
