@@ -1,5 +1,5 @@
 # apache-airflow-dev-server
-A Dockerized Apache Airflow Webserver using Airflo`2.0.0` with Python`3.8` & PostgreSQL`10`.
+A Dockerized Apache Airflow Webserver using Airflow`latest` with Python`3.8` & PostgreSQL`10`.
 
 .env file contains:
 ```
